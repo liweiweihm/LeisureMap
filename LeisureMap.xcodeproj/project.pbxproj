@@ -20,6 +20,7 @@
 		AD1838E621085F3F00417F68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1838E521085F3F00417F68 /* AppDelegate.swift */; };
 		AD1838E821085F6700417F68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1838E721085F6700417F68 /* ViewController.swift */; };
 		AD1838EA2108656B00417F68 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1838E92108656B00417F68 /* SplashViewController.swift */; };
+		ADE8104C210961F00032FC82 /* NewWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE8104B210961F00032FC82 /* NewWorker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		AD1838E521085F3F00417F68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		AD1838E721085F6700417F68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		AD1838E92108656B00417F68 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		ADE8104B210961F00032FC82 /* NewWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		AD1838A221085BC800417F68 = {
 			isa = PBXGroup;
 			children = (
+				ADE810482109617C0032FC82 /* Worker */,
 				AD1838AD21085BC800417F68 /* LeisureMap */,
 				AD1838AC21085BC800417F68 /* Products */,
 			);
@@ -165,6 +168,14 @@
 				AD1838E92108656B00417F68 /* SplashViewController.swift */,
 			);
 			path = LoginFlow;
+			sourceTree = "<group>";
+		};
+		ADE810482109617C0032FC82 /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				ADE8104B210961F00032FC82 /* NewWorker.swift */,
+			);
+			path = Worker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +314,7 @@
 				AD1838B121085BC800417F68 /* ViewController.swift in Sources */,
 				AD1838AF21085BC800417F68 /* AppDelegate.swift in Sources */,
 				AD1838E821085F6700417F68 /* ViewController.swift in Sources */,
+				ADE8104C210961F00032FC82 /* NewWorker.swift in Sources */,
 				AD1838E421085F0800417F68 /* LoginViewController.swift in Sources */,
 				AD1838E121085CA700417F68 /* MapViewController.swift in Sources */,
 				AD1838EA2108656B00417F68 /* SplashViewController.swift in Sources */,
